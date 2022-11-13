@@ -15,7 +15,7 @@ class _BottomBarState extends State<BottomBar> {
   int _selectedIndex = 1;
   static final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
-    const Text("Notifications"),
+    const Text("Search"),
     const Text("Tickets"),
     const Text("Profile")
   ];
@@ -50,11 +50,11 @@ class _BottomBarState extends State<BottomBar> {
               label: "Home"),
           BottomNavigationBarItem(
               icon: Icon(
-                FluentSystemIcons.ic_fluent_alert_on_regular,
+                FluentSystemIcons.ic_fluent_search_info_regular,
                 //color: Colors.blue,
                 size: 30,
               ),
-              activeIcon: Icon(FluentSystemIcons.ic_fluent_alert_on_filled),
+              activeIcon: Icon(FluentSystemIcons.ic_fluent_search_info_filled),
               label: "Search"),
           BottomNavigationBarItem(
               icon: Icon(
